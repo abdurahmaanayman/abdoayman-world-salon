@@ -547,6 +547,9 @@ body{
     text-transform: capitalize;
     direction: rtl;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .my-footer .son-myfooter .one .contact ul{
