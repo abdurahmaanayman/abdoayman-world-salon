@@ -1,0 +1,359 @@
+
+
+
+/************=============================================================================================*/
+
+
+  /*mobile small screen*/
+  @media (max-width: 867px) {   
+    body{
+        height:100%;
+        padding:0px;
+        margin:0px;
+        overflow-x: hidden;
+    }
+    .my-container-home .son .my-up-nav{
+        display: grid;
+        grid-template-columns: 40% 0 25%  ;  
+    }
+    .my-container-home .son .my-up-nav button{
+        visibility: visible;
+
+    }
+    .my-container-home .son .my-up-nav .groub1 {
+        visibility: hidden;
+
+    }
+    .my-container-home .son .my-up-nav .groub2{
+        visibility: hidden;
+    }
+    .my-container-home .son .my-up-nav .logo{
+        width: 100%;
+    }
+    
+    .my-cotainer-overlay .overlay .hero h1{
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        transition: .3s;
+    }
+    .my-cotainer-overlay .overlay .hero .lin-lar, .lin-lar2{
+        width: 150px;
+        margin:0px auto;
+    }
+    .my-cotainer-overlay .overlay .hero  .lin-lar2{
+        width: 150px;
+        margin:0px auto;
+    }
+    /************************************navbar**********************************/
+    /****************************************************************************/
+    /*************************************LOGO AND MASSAGE***********************/
+    
+    .up-welcome{
+        background-color: #f3f6fff3;
+        width: 100%;
+        height: 300vh;
+    }
+    
+    .up-welcome .son-welcome{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: 30% 40% 30%;
+    }
+    /******************************************************************************************************/
+
+     /*****mackground**/
+     .up-background .son-background{
+        height: 65vh;
+    }
+    .up-background .son-background .img-back img{
+        height: 65vh;
+    }
+    .up-background .son-background .aboat-back{
+        top: 50%;
+    }
+    .up-background .son-background .aboat-back h1{
+        font-size: xx-large;
+    }
+    .up-background .son-background .aboat-back .line1{
+        width: 150px;
+    }
+    .up-background .son-background .aboat-back .line1 span{
+        width: 40%;
+    }
+    .up-background .son-background .aboat-back .line2{
+        width: 150px;
+    }
+    /***************************************"up-salon""son-salon""logo-salon"goal-salon*********************/
+    .up-salon{
+    height: 100vh;
+    }
+    .up-salon .son-salon{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%
+    }
+    .up-salon .son-salon .goal-salon h2{ 
+    margin-top: 50px;
+    font-size: x-large;
+    }
+
+    /***********************************************************************************************************/
+    /***********************our-products"><div class="son-products**********************************************/
+    .our-products .son-products p{
+    direction: rtl;
+    font-size: large;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 2rem;
+    }
+    .our-products .son-products .up-itemproduct{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 1%;
+    }
+    .our-products .son-products button{
+    width: 25%;
+    height: 50px;
+    border-radius: 20px;
+    }
+    /****************************************foooter************************/
+    .my-footer .son-myfooter{
+    display: grid;
+    grid-template-columns:auto;
+    
+    }
+    /**********************************************************
+    /*****************************location**********************
+    ************************************************************/
+    .first-place{
+        width: 90%; 
+    }
+    .first-place .row2{
+        display: grid;
+        grid-template-columns: 0% 100%;
+    }
+    .first-place .row2 .adress{
+        direction: rtl;
+        padding-left: 0px;
+        padding-right: 0%;
+        padding-top: 30px;
+    }
+    .first-place .row2 .adress p span{
+        width: 80px;  
+    }
+    .second-place{
+        width: 90%;
+    }
+    .second-place .row2{
+        display: grid;
+        grid-template-columns: 0% 100%;
+    }
+    .second-place .row2 .adress p span{
+        width: 80px;  
+    }
+    .second-place .row2 .adress{
+        direction: rtl;
+        padding-left: 0px;
+        padding-right: 0%;
+        padding-top: 30px;
+    }
+    .cointainer-fixed{
+        height: 50vh;
+    }
+    .cointainer-fixed .son{
+        top: 15%;
+    }
+
+    /*************************************
+    *************************************
+    *************************************
+    *************gallary****************
+    *************************************
+    ************************************/
+    .my-cotainer-overlay3 .overlay .hero h1{
+        font-size: 1.5rem;
+    }
+    .my-cotainer-overlay3 .overlay .hero .lin-lar, .lin-lar2{
+        width: 150px;
+        
+    }
+    .up-pictute{
+        margin-top: -10px;
+        
+    }
+    .up-pictute .son-picture{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .up-pictute .son-picture div{
+        height: 200px;
+    }
+    .gallary-our-massge .up-aboat .goal h4{
+        
+        top: 0%;
+        
+    
+    }
+    .gallary-our-massge .up-aboat .aboat p{
+        
+        top: 0%;
+        
+    }
+    /*******************************
+    /*******************************
+    /*******************************
+    *********** ourteam************
+    /*******************************
+    /********************************/
+    
+    .my-cotainer-overlay .overlay4 .hero{
+        top: 44%;
+    }.my-cotainer-overlay .overlay4 .hero h1{
+     visibility: hidden;
+    }
+    .my-cotainer-overlay .overlay4 .hero p{
+        line-height: 2rem;
+    }
+    .my-cotainer-overlay .overlay4 .hero .lin-lar, .lin-lar2{
+       visibility: hidden;
+    }
+ 
+    
+    .up-healthy .son-healthy{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto 0 auto;
+    }
+    /********/
+    .up-my-teamss .son-my-teamss{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 0% 100%;
+        
+    }
+    .up-my-teamss .son-my-teamss .place{
+      visibility: hidden;
+    }
+
+
+
+}
+@media (min-width:868px) and (max-width:1000px) {
+    body{
+        height:100%;
+        padding:0px;
+        margin:0px;
+        overflow-x: hidden;
+    }
+    
+    .my-container-home .son .my-up-nav{
+        display: grid;
+        grid-template-columns: 40% 0 25%  ;  
+    }
+    .my-container-home .son .my-up-nav button{
+        visibility: visible;
+
+    }
+    .my-container-home .son .my-up-nav .groub1 {
+        visibility: hidden;
+
+    }
+    .my-container-home .son .my-up-nav .groub2{
+        visibility: hidden;
+    }
+    .my-container-home .son .my-up-nav .logo{
+        width: 100%;
+    }
+
+    .up-welcome{
+        background-color: #f3f6fff3;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .up-welcome .son-welcome{
+        display: grid;
+        grid-template-columns:  0%  80% 20%;
+    }
+
+     /*****mackground**/
+     .up-background .son-background{
+        height: 65vh;
+    }
+    .up-background .son-background .img-back img{
+        height: 65vh;
+    }
+    .up-background .son-background .aboat-back{
+        top: 50%;
+    }
+    .up-background .son-background .aboat-back h1{
+        font-size: xx-large;
+    }
+    .up-background .son-background .aboat-back .line1{
+        width: 150px;
+    }
+    .up-background .son-background .aboat-back .line1 span{
+        width: 40%;
+    }
+    .up-background .son-background .aboat-back .line2{
+        width: 150px;
+    }
+    /**********************************
+    /**********************************
+    /***************location***********
+    ************************************
+    ************************************/
+
+    .first-place{
+        width: 85%; 
+    }
+    .first-place .row2{
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }
+    .second-place{
+        width: 85%;
+    }
+    .second-place .row2{
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }    
+
+    /***************************
+    **********ourteam*********
+    **************************/
+    .up-healthy .son-healthy .logo{
+        position: relative;
+    }
+    
+    .up-healthy .son-healthy .logo img{ 
+        top: 25%;
+        position: absolute;
+    }
+    
+}
+@media (min-width:1001px) and (max-width:1450px){
+    body{
+        height:100%;
+        padding:0px;
+        margin:0px;
+        overflow-x: hidden;
+    }
+    .up-welcome{
+        background-color: #f3f6fff3;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .up-welcome .son-welcome{
+        display: grid;
+        grid-template-columns:  27.5%  45% 27.5%;
+    }
+
+}
+
+
+
+
+/******===================================================================================================*/
+

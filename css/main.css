@@ -1,0 +1,1243 @@
+/****add to javascript ****/
+
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/*======================================NAvigator=================================*/
+/***************up*******************************/
+
+.my-container-home .son .my-up-nav{
+   background-color: #2525312d;
+   height: 50px;
+   position: fixed;
+   width: 100%;
+   z-index: 5;  
+  /**/ display: grid;
+  /**/ grid-template-columns: 0% 40% 20% 40%;
+}
+
+/**********************button******************/
+.my-container-home .son .my-up-nav button{
+    /**/background-color:antiquewhite;
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    border-radius: 3px;
+  /***/  visibility: hidden;
+}
+.my-container-home .son .my-up-nav button span{
+    display: block;
+    height: 2px;
+    background-color: darkgrey;
+    margin: 6px;
+}
+.my-container-home a{
+    text-decoration: none;
+    color: #f3f6ff;
+
+
+}
+/*@medi*/
+
+/*************groubs******************/
+.son{
+    position: relative;
+}
+.hidegroub{
+    visibility: hidden;
+    position: absolute;
+    top: 50px;
+    z-index: 5;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.hidegroub ul{
+    list-style: none;
+
+}
+.hidegroub ul li{
+    text-align: center;
+    color: #f3f6ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 3rem;
+}
+.hidegroub ul li a:hover{
+    color: #ea697f;
+    transition: .7s;
+}
+
+
+.my-container-home .son .my-up-nav .groub1 ul{
+  /**/  display: grid;
+  /**/  grid-template-columns: auto auto auto auto;
+    list-style: none;
+    height: 50px;
+    padding-top: 8px;
+}
+.my-container-home .son .my-up-nav .groub1 li{
+    color: #f3f6ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 20px
+    
+}
+.my-container-home .son .my-up-nav .groub2 ul{
+   /**/ display: grid;
+    /**/grid-template-columns: auto auto auto auto;
+    list-style: none;
+    height: 50px;
+    padding-top: 8px;
+
+}
+.my-container-home .son .my-up-nav .groub2 li{
+    margin-left: 50px;
+    color: #f3f6ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 20px
+    
+}
+
+
+.my-container-home .son .my-up-nav .groub1 ul li a:hover{
+    color: #ea697f;
+    transition: .8s;
+    cursor: pointer;
+}
+.my-container-home .son .my-up-nav .groub1 ul li:after{
+    content: " ";
+    width: 0;
+    height: 3px;
+    display: block;
+    background-color: #ea697f;
+    transition: .5s;
+}
+.my-container-home .son .my-up-nav .groub1 li:hover::after{
+    width: 60%;
+}
+.my-container-home .son .my-up-nav .groub2 ul li a:hover{
+    color: #ea697f;
+    transition: .8s;
+    cursor: pointer;
+}
+.my-container-home .son .my-up-nav .groub2 ul li:after{
+    content: " ";
+    width: 0;
+    height: 3px;
+    display: block;
+    background-color: #ea697f;
+    transition: .5s;
+}
+.my-container-home .son .my-up-nav .groub2 li:hover::after{
+    width: 70%;
+}
+.my-container-home .son .my-up-nav .logo{
+    display: grid;
+    justify-content: center;
+    height: 50px;
+}
+.my-container-home .son .my-up-nav .logo img{
+   /* background-color: aqua;*/
+   width: 100%;
+
+}
+
+
+/*************************************************************************************************/
+
+.up-background{
+    width: 100%;
+}
+/*******son-background*********/
+.up-background .son-background{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.up-background .son-background::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.010);
+}
+/********image**********/
+.up-background .son-background .img-back{
+    width: 100%;
+    height: 100%;
+}
+.up-background .son-background .img-back img{
+    width: 100%;
+    height: 100vh;
+}
+/**************aboat******/
+.up-background .son-background .aboat-back{
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    height: 20vh;
+    top: 70vh;
+    left: 25%;
+}
+.up-background .son-background .aboat-back h1{
+    color: #b39758;
+    font-size: xxx-large;
+    font-family: inherit;
+    letter-spacing: 5px;
+    font-family: 'Marhey', cursive;
+}
+.up-background .son-background .aboat-back .line1{
+    width: 250px;
+    margin: 10px auto;
+}
+.up-background .son-background .aboat-back .line1 span{
+    display: inline-block;
+    background-color: #ac4c75;
+    width: 45%;
+    height: 3px;
+    margin: 5px;
+}
+.up-background .son-background .aboat-back .line2{
+    width: 250px;
+    margin: 10px auto;
+}
+.up-background .son-background .aboat-back .line2 span{
+    display: inline-block;
+    background-color: #ac4c75;
+    width: 80%;
+    height: 3px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+/**********************************************************************************************************/
+/********************************************LOGO AND MASSAGE**********************************************/
+/***************up-welcome*********/
+
+/**/.up-welcome{
+    background-color: #f3f6fff3;
+    width: 100%;
+    height: 94vh;
+}
+
+/********************son-welcome*********/
+.up-welcome .son-welcome{
+    width: 100%;
+    height: 100%;
+   /**/ display: grid;
+  /**/  grid-template-columns: 33% 34% 33%;
+}
+/*****************wel-log***********/
+.up-welcome .son-welcome .wel-log{
+    height: 100%;
+}
+.up-welcome .son-welcome .wel-log img{
+    width: 100%;
+    min-height: 100vh;
+
+}
+/**************** center welcome*********/
+.up-welcome .son-welcome .welcome{
+    height: 100%;
+}
+.up-welcome .son-welcome .welcome img
+{
+    width: 100%;
+    height: 100vh;
+}
+.up-welcome .son-welcome .wel-log2{
+   /* width: 33.66%;*/
+    height: 100%;
+    display: inline-block;
+    position: relative;
+
+}
+.up-welcome .son-welcome .wel-log2 .son-wel-log2 {
+   position: absolute;
+   top: 5%;
+}
+.up-welcome .son-welcome .wel-log2 .son-wel-log2 span i{
+    font-size: xxx-large;
+    color: #ea697f;
+    margin-left: 41%
+
+}
+.up-welcome .son-welcome .wel-log2 .son-wel-log2 h2{
+    direction: rtl;
+    text-align: center;
+    font-size: x-large;
+    font-family: inherit;
+    font-weight: bolder;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-family: 'Marhey', cursive;
+
+}
+.up-welcome .son-welcome .wel-log2 .son-wel-log2 span hr{
+    width: 70%;
+    height: 2px;
+    background-color: #ea697f;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+.up-welcome .son-welcome .wel-log2 .son-wel-log2  p{
+    direction: rtl;
+    margin-right: 10px;
+    font-family: revert;
+    font-size: large;
+    font-family: 'El Messiri', sans-serif;
+}
+.up-welcome .son-welcome .wel-log2 .son-wel-log2  p span{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'El Messiri', sans-serif;
+    font-family: 'Marhey', cursive;
+
+}
+.up-welcome .son-welcome .wel-log2 .son-wel-log2  p i{
+    animation: move 1s infinite;
+}
+
+  @keyframes move {
+      from{
+        padding-right: 0;
+      }
+      to{
+       padding-right: 5px;
+      }
+    
+  }
+
+/******************************************************************************************************/
+/***************************************"up-salon""son-salon""logo-salon"goal-salon*********************/
+/*********up-salon*****/
+.clear{
+    clear: both;
+}
+.up-salon{
+    width: 75%;
+    height: 400px;
+    margin: 50px auto;
+    background-color: #f3f6ff;
+}
+
+/*********"son-salon****/
+/**/.up-salon .son-salon{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+/*********logo-salon****/
+.up-salon .son-salon .logo-salon{
+   
+  position: relative;
+   
+}
+.up-salon .son-salon .logo-salon img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/*********ugoal-salon*******/
+.up-salon .son-salon .goal-salon{
+    
+    height: 100%;
+    background-color:beige;
+    
+}
+.up-salon .son-salon .goal-salon h2{
+    text-align: center;
+    margin-top: 100px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-family: 'Marhey', cursive;
+
+}
+.up-salon .son-salon .goal-salon hr{
+    margin: 20px auto;
+    background-color: #ea697f;
+    width: 20%;
+    height: 2px;
+    color: #ea697f;
+}
+.up-salon .son-salon .goal-salon p{
+    text-align: center;
+    margin-top: 20px; 
+    font-family: 'El Messiri', sans-serif;
+
+}
+.up-salon .son-salon .goal-salon h3{
+    text-align: center;
+    margin-top: 20px; 
+    font-family: 'Rakkas', cursive;
+
+}
+/***********************************************************************************************************/
+/***********************our-products"><div class="son-products**********************************************/
+/*******************our-products********/
+.our-products{
+    width: 100%;
+    margin-top: 150px;
+}
+.our-products .son-products{
+    width: 80%;
+    margin: 0px auto;
+}
+.our-products .son-products h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Marhey', cursive;
+
+}
+.our-products .son-products hr{
+    width: 20%;
+    height: 2px;
+    background-color: #ea697f;
+    margin: auto;
+    margin-bottom: 30px;
+    color: #ea697f;
+}
+.our-products .son-products p{
+    direction: rtl;
+    font-size: x-large;
+    margin-bottom: 30px;
+    font-family: 'El Messiri', sans-serif;
+
+}
+.our-products .son-products .up-itemproduct{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1%;
+}
+
+.our-products .son-products .up-itemproduct .item-product{
+    position: relative;
+    width: 100%;
+}
+.our-products .son-products .up-itemproduct .item-product img{
+    border-radius: 10px;
+    width: 100%;
+}
+.our-products .son-products .up-itemproduct .item-product p{
+    position: absolute;
+    visibility: hidden;
+    top: 45%;
+    left: 40%;
+    z-index: 3;
+    transition: visibility 0, opacity 1s ease-in-out;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.our-products .son-products .up-itemproduct .item-product:hover p{
+    visibility: visible;
+    transition-delay: .9s;
+}
+
+/***overlay****/
+.our-products .son-products .up-itemproduct .item-product::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    transition: .7s;
+    border-radius: 10px;
+}
+.our-products .son-products .up-itemproduct .item-product:hover::after{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.581);
+    z-index: 2;
+    transition: 1s;
+    border-radius: 20px;
+
+}
+
+/*********button***/
+.our-products .son-products button{
+    margin: 50px auto;
+    display: block;
+    border: none;
+    width: 15%;
+    height: 50px;
+    background-color: #ea697f;
+    border-radius: 30px;
+}.our-products .son-products button a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+
+
+
+
+/****************************************************************foooter************************************/
+.my-footer{
+    
+   
+    background-color: rgba(0, 0, 0, 0.925);
+   /* height: 580px;*/
+    
+}
+.my-footer .son-myfooter{
+    display: grid;
+    grid-template-columns:33%  34% 33%;
+    
+}
+/*******one****/
+.my-footer .son-myfooter .one{
+    color: aliceblue;
+    width: 100%;
+}
+.my-footer .son-myfooter .one p{
+    color: #ea697f;
+    font-size: xx-large;
+    font-family: fangsong;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    padding-left: 43px;
+    line-height: 3rem;
+    padding-top: 10%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.my-footer .son-myfooter .three p{
+    color: #ea697f;
+    font-size: xx-large;
+    font-family: fangsong;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    padding-left: 43px;
+    line-height: 3rem;
+    padding-top: 10%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.my-footer .son-myfooter .one .contact{
+    font-family: cursive;
+    font-size: large;
+    line-height: 3.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: capitalize;
+    direction: rtl;
+    text-align: center;
+    
+}
+.my-footer .son-myfooter .one .contact ul{
+    list-style: none;
+    font-family: 'El Messiri', sans-serif;
+
+}
+.my-footer .son-myfooter .one .contact ul li i{
+
+    margin-right: 15px;
+    
+}
+/*******two***/
+.my-footer .son-myfooter .two{
+    width: 100%;
+}
+.my-footer .son-myfooter .two img{
+    width: 100%;
+
+}
+/***three***/
+.my-footer .son-myfooter .three{
+    width: 100%;
+}
+.my-footer .son-myfooter .three form{
+    display: grid;
+    justify-content: center;
+}
+.my-footer .son-myfooter .three form input{
+    display: block;
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    
+    
+} 
+.my-footer .son-myfooter .three button{
+    margin-left: 48%;
+    margin-top: 20px;
+    width: 80px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ea697f;
+
+}
+.my-footer .son-myfooter .three button a{
+    color: #f3f6ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+}
+
+/********************/
+.my-footer hr{
+    width: 85%;
+    height: 2px;
+    color: #ea697f;
+    background-color: #ea697f;
+    margin:10px auto;
+}
+.my-footer .goal {
+    color: #ea697f;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 10px;
+    padding-bottom: 15px;
+    font-family: 'Rakkas', cursive;
+    padding: 20px;
+    
+}
+
+
+
+
+
+
+
+/***********************************************************************************************************
+************************************************************************************************************
+*******************************************location*********************************************************
+************************************************************************************************************
+***********************************************************************************************************/
+/*************************************************************************************************/
+/******************************************overlay and background *******************************/
+
+.my-cotainer-overlay2{
+    width: 100%;
+    background-image: url(../img/background/98c55acc-feab-48f9-9bc8-c9d5b2e024ae.jpg);
+    background-size: cover;
+}
+
+.my-cotainer-overlay2 .overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 80vh;
+    position: relative;
+}
+
+.my-cotainer-overlay2 .overlay .hero{
+    position: absolute;
+    width: 60%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.my-cotainer-overlay2 .overlay .hero h1{
+    font-size: 4.5rem;
+    line-height: 1.2;
+    color: beige;
+    text-transform: capitalize;
+    transition: .8s;
+    font-family: 'Marhey', cursive;
+
+}
+.my-cotainer-overlay2 .overlay .hero h1:hover{
+    color: #ea697f;
+    transition: .8s;
+}
+.my-cotainer-overlay2 .overlay .hero .lin-lar, .lin-lar2{
+    width: 200px;
+    margin:0px auto;
+}
+.my-cotainer-overlay2 .overlay .hero .lin-lar span{
+    display: inline-block;
+    width: 48%;
+    height: 3px;
+    background-color: #ea697f;
+}
+.my-cotainer-overlay2 .overlay .hero .lin-lar2 span{
+    display: inline-block;
+    width: 80%;
+    height: 3px;
+    background-color: #ea697f;
+}
+
+/*******animation and altrnative  carsoul************/
+.my-cotainer-overlay {
+    
+    animation: my-cotainer-overlay 10s infinite;
+  }
+  
+  @keyframes my-cotainer-overlay {
+      from{
+        visibility: visible;
+      }
+      to{
+        visibility: hidden;
+       /* height: 0;*/
+      }
+    
+  }
+
+  /********************************************** our places************************************************/
+/*****first place***/
+.first-place{
+width: 75%;
+display: grid;
+grid-template-rows: auto auto;
+margin: 0 auto;
+
+}
+.first-place h6{
+    font-family: 'Marhey', cursive;
+    font-size: x-large;
+    text-align: center;
+    margin: 30px;
+}
+.first-place .row2{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+/******photo*****/
+.first-place .studio{
+width: 100%;
+height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.first-place .studio img{
+    width: 85%;
+    height: 60vh;
+}
+/*****adress*/
+.first-place .row2 .adress{
+    direction: rtl;
+    padding: 30px;
+    font-family: 'Marhey', cursive;
+
+}
+
+.first-place .row2 .adress p span{
+    width: 100px;
+    display: inline-block;
+    font-family: fantasy;
+    font-weight: bolder;
+    line-height: 2.5rem;
+    font-family: 'Marhey', cursive;
+
+}
+.first-place .row2 .logo{
+    background-image: url(../img/background/98c55acc-feab-48f9-9bc8-c9d5b2e024ae.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+/************************************************our message *******************************************/
+/****cointainer-fixed*/
+.cointainer-fixed{
+    margin-top: 50px;
+    width: 100%;
+    background-image: url(../img//background/Salon\ -\ Childrens\ Haircut.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    position: relative;
+}
+.cointainer-fixed .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+.cointainer-fixed .son{
+    width: 75%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 12.5%;
+}
+.cointainer-fixed .son p{
+    font-family: cursive;
+    font-size: large;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color:antiquewhite;
+    font-family: 'Marhey', cursive;
+
+}
+.cointainer-fixed .son hr{
+    width: 90%;
+    color: #ea697f;
+    background-color: #ea697f;
+    height: 2px;
+}
+.cointainer-fixed .son h3{
+    color: #ea697f;
+    font-family: 'Rakkas', cursive;
+}
+/****************************************/
+/**********second **************/
+.second-place{
+width: 75%;
+margin:0 auto;
+display: grid;
+grid-template-rows: auto auto;
+
+}
+.second-place h6{
+    font-family: 'Marhey', cursive;
+    font-size: x-large;
+    text-align: center;
+    margin: 30px;
+}
+.second-place .row2{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+/******photo*****/
+.second-place .studio{
+width: 100%;
+
+}
+.second-place .studio img{
+    width: 85%;
+    height: 60vh;
+}
+/*****adress*/
+.second-place .row2 .adress{
+    direction: rtl;
+    padding: 30px;
+    font-family: 'Marhey', cursive;
+
+}
+.second-place .row2 .adress p span{
+    width: 100px;
+    display: inline-block;
+    font-family: fantasy;
+    font-weight: bolder;
+    line-height: 2.5rem;
+    font-family: 'Marhey', cursive;
+
+}
+.second-place .row2 .logo{
+    background-image: url(../img/background/vintage\ barber\ shop.jpg);
+    background-size: cover;
+    height: 300px;
+}    
+/***********************************************************************************************************
+************************************************************************************************************
+*******************************************SERVICES*********************************************************
+************************************************************************************************************
+***********************************************************************************************************/
+
+/******************************************overlay and background******************************************/
+.my-cotainer-overlay3{
+    width: 100%;
+    background-image: url(../img/background/98c55acc-feab-48f9-9bc8-c9d5b2e024ae.jpg);
+    background-size: cover;
+}
+
+.my-cotainer-overlay3 .overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 90vh;
+    position: relative;
+}
+
+.my-cotainer-overlay3 .overlay .hero{
+    position: absolute;
+    width: 60%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.my-cotainer-overlay3 .overlay .hero h1{
+    font-size: 4.5rem;
+    line-height: 1.2;
+    color: beige;
+    text-transform: capitalize;
+    transition: .8s;
+    font-family: 'Marhey', cursive;
+
+}
+.my-cotainer-overlay3 .overlay .hero h1:hover{
+    color: #ea697f;
+    transition: .8s;
+}
+.my-cotainer-overlay3 .overlay .hero .lin-lar, .lin-lar2{
+    width: 200px;
+    margin:0px auto;
+}
+.my-cotainer-overlay3 .overlay .hero .lin-lar span{
+    display: inline-block;
+    width: 48%;
+    height: 3px;
+    background-color: #ea697f;
+}
+.my-cotainer-overlay3 .overlay .hero .lin-lar2 span{
+    display: inline-block;
+    width: 80%;
+    height: 3px;
+    background-color: #ea697f;
+}
+/******************************************************picture***********************************/
+.up-pictute{
+    margin-top: -30px;
+    width: 100%;
+}
+.up-pictute .son-picture{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: .5%;
+    margin: 0 auto;
+}
+
+.up-pictute .son-picture div{
+    height: 250px;
+    background-color: brown;
+    border-radius: 10px;
+    position: relative;
+}
+.up-pictute .son-picture div img{
+    width: 100.1%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.up-pictute .son-picture div:hover img{
+    transform: scale(1.01);
+    transition: .5s;
+}
+/***overlay****/
+.up-pictute .son-picture div::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+/********************************************************our massage**********************************/
+/********gallary-our-massge*/
+.gallary-our-massge{
+    width: 100%;
+    background-color: #f3f6ff;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.gallary-our-massge h3{
+    text-align: center;
+    color: #ea697f;
+    font-family: revert;
+    font-size: xx-large;
+    margin-bottom: 30px;
+    font-family: 'Marhey', cursive;
+
+
+}
+.gallary-our-massge hr{
+    width: 80%;
+    color: #ea697f;
+    background-color: #ea697f;
+    height: 2px;
+    margin: 20px auto;
+}
+.gallary-our-massge .up-aboat{
+    display: grid;
+    grid-template-columns: 65% 30%;
+    gap: 5%;
+}
+.gallary-our-massge .up-aboat .aboat{
+    position: relative;
+    text-align: center;    
+    height: 250px;
+}
+.gallary-our-massge .up-aboat .aboat p{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    font-family: inherit;
+    font-family: 'El Messiri', sans-serif;
+
+}
+.gallary-our-massge .up-aboat .goal{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    height: 150px;
+    font-family: 'Rakkas', cursive;
+}
+.gallary-our-massge .up-aboat .goal h4{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    right: 10%;
+    font-family: inherit;
+
+}
+/**************************************************************************************************************
+***************************************************************************************************************
+****************************************ourteam****************************************************************
+**************************************************************************************************************
+****************************************************************************************************************/
+/*******************************************backgronf of ourteam************************/
+/*********overlay********/
+
+
+
+.my-cotainer-overlay .overlay4{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    position: relative;
+}
+
+.my-cotainer-overlay .overlay4 .hero{
+    position: absolute;
+    width: 60%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.my-cotainer-overlay .overlay4 .hero h1{
+    font-size: 3rem;
+    line-height: 1.2;
+    color: beige;
+    text-transform: capitalize;
+    transition: .8s;
+    font-family: 'Marhey', cursive;
+
+}
+.my-cotainer-overlay .overlay4 .hero p{
+    line-height: 3.5rem;
+    color: #f3f6ff;
+    word-spacing: 1rem;
+    font-size: larger;
+    font-family: fangsong;
+    font-weight: bolder;
+    font-family: 'Marhey', cursive;
+
+    
+}
+.my-cotainer-overlay .overlay4 .hero h1:hover{
+    color: #ea697f;
+    transition: .8s;
+}
+.my-cotainer-overlay .overlay4 .hero .lin-lar, .lin-lar2{
+    width: 200px;
+    margin:0px auto;
+}
+.my-cotainer-overlay .overlay4 .hero .lin-lar span{
+    display: inline-block;
+    width: 48%;
+    height: 3px;
+    background-color: #ea697f;
+}
+.my-cotainer-overlay .overlay4 .hero .lin-lar2 span{
+    display: inline-block;
+    width: 80%;
+    height: 3px;
+    background-color: #ea697f;
+}
+/**********************************************our healthy********************************************/
+.up-healthy{
+    width: 100%;
+}
+.up-healthy .son-healthy{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+.up-healthy .son-healthy .guide1{
+    padding: 20px;
+    background-color: #ea697f;
+    direction: rtl; 
+}
+.up-healthy .son-healthy .guide2{
+    padding: 20px;
+    background-color: #569a21;
+    direction: rtl; 
+}
+
+.up-healthy .son-healthy .guide1 h2{
+    text-align: center;
+    font-family: fantasy;
+    font-size: xx-large;
+    letter-spacing: 3px;
+    color: #f3f6ff;
+    font-family: 'Marhey', cursive;
+
+}
+
+.up-healthy .son-healthy .guide2 h2{
+    text-align: center;
+    font-family: fantasy;
+    font-size: xx-large;
+    letter-spacing: 3px;
+    color: #f3f6ff;
+    font-family: 'Marhey', cursive;
+
+}
+.up-healthy .son-healthy .guide1 hr{
+    margin: 20px auto; 
+    width: 75%;
+    color: #f3f6ff;
+}
+.up-healthy .son-healthy .guide2 hr{
+    margin: 20px auto; 
+    width: 75%;
+    color: #f3f6ff;
+}
+.up-healthy .son-healthy .guide1,.guide2 p{
+    text-align: center;
+    font-size: large;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-weight: bold;
+    line-height: 3rem;
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+
+.up-healthy .son-healthy .logo img{ 
+    width: 100%;
+}
+/*************************************************my-team*****************************/
+/********up-my-team*/
+.up-my-teamss{
+    width: 100%;
+    background-color: rgba(223, 223, 202, 0.904);
+    
+}
+.up-my-teamss .son-my-teamss{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
+.up-my-teamss .son-my-teamss .place{
+    background-image: url(../img/تنزيل.jpg);
+    background-size: cover;
+    position: relative;
+}
+.up-my-teamss .son-my-teamss .place::after{
+    content: " ";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.up-my-teamss .son-my-teamss .place h5{
+    text-align: center;
+    font-size: x-large;
+    font-family: inherit;
+    letter-spacing: 2px;
+    color: aliceblue;
+    position: absolute;
+    top: 35%;
+    left: 35px;
+    font-family: 'Marhey', cursive;
+
+
+}
+.up-my-teamss .son-my-teamss .place p{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    color: aliceblue;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'El Messiri', sans-serif;
+
+
+}
+
+.up-my-teamss .son-my-teamss .my-teamss{
+    display: grid;
+    grid-template-columns: 33.3% 33.4% 33.3%;
+    background-color: black;
+}
+.up-my-teamss .son-my-teamss .my-teamss .information-team img{
+    width: 100%;
+    height: 251.547px;
+}
+.up-my-teamss .son-my-teamss .my-teamss .information-team h2{
+    text-align: center;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.up-my-teamss .son-my-teamss .my-teamss .information-team p{
+    text-align: center;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.space{
+    margin: 50px;
+}
+/****************************************************************************************************
+*****************************************************************************************************
+******************************************more*******************************************************
+*****************************************************************************************************
+*****************************************************************************************************/
+/********up-question************/
+.up-question{
+    direction: rtl;
+    width: 100%;
+    background-color:rgb(247, 242, 223) ;
+}
+.up-question .son-question{
+    width: 80%;
+    margin: 0% auto;
+    padding: 50px;
+
+}
+.up-question .son-question h2{
+    font-family: 'Marhey', cursive;
+
+}
+.up-question .son-question p{
+    font-size: x-large;
+    letter-spacing: 1px;
+    font-family: 'El Messiri', sans-serif;
+
+}
+/**********************************************************************************************************
